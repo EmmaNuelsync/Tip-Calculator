@@ -1,0 +1,49 @@
+body{
+    background-color:hsl(172, 67%, 45%);
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.but {
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+
+.but:hover {
+    background-color: hsl(172, 67%, 45%);
+    outline-color: hsl(172, 67%, 45%);
+    cursor: pointer;
+}
+
+
+input {
+    font-size: 24px;
+
+}
+
+.custom {
+    padding: 10px;
+}
+
+#second{
+    background-color: hsl(183, 100%, 15%);
+}
+
+.reset {
+    background-color: hsl(172, 67%, 45%);
+}
+
+.reset:hover {
+    color: white;
+     background-color: hsl(186, 14%, 43%);
+}
